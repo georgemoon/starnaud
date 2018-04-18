@@ -51,7 +51,7 @@ $(function() {
   }
 
   /* JSON decoding */
-  $.getJSON('http://nrfa.harvest.com/w.cgi?cmd=json&hsn=11720', function(weatherJSON) {
+  $.getJSON('https://live.harvest.com/?hsn=11720&grp=Main&cmd=json', function(weatherJSON) {
     /* Parse template */
     var template = $('#template-weather').html();
     Mustache.parse(template);
