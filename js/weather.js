@@ -39,11 +39,11 @@ $(function() {
   function trendToArrow(trend) {
     /* Converts a trend number [-1, 0, 1] to arrow or dash */
     switch(trend) {
-      case '-1':
+      case -1:
         return '<i class="fa fa-long-arrow-down" aria-hidden="true"></i>';
-      case '0':
+      case 0:
         return '&mdash;';
-      case '1':
+      case 1:
         return '<i class="fa fa-long-arrow-up" aria-hidden="true"></i>';
       default:
         return '';
@@ -63,7 +63,7 @@ $(function() {
     /* Humanise data */
     /** Trends **/
     for(var key in weatherJSON) {
-      if(weatherJSON[key].trend) {
+      if(weatherJSON[key].trend || weatherJSON[key].trend === 0) {
         weatherJSON[key].trend = trendToArrow(weatherJSON[key].trend);
       }
     }
