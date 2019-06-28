@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/starnaud/static/css/main.6daaf882.chunk.css",
+    "main.js": "/starnaud/static/js/main.7d67ce6e.chunk.js",
+    "main.js.map": "/starnaud/static/js/main.7d67ce6e.chunk.js.map",
+    "runtime~main.js": "/starnaud/static/js/runtime~main.9bd44f9e.js",
+    "runtime~main.js.map": "/starnaud/static/js/runtime~main.9bd44f9e.js.map",
+    "static/js/2.5415d3b6.chunk.js": "/starnaud/static/js/2.5415d3b6.chunk.js",
+    "static/js/2.5415d3b6.chunk.js.map": "/starnaud/static/js/2.5415d3b6.chunk.js.map",
+    "index.html": "/starnaud/index.html",
+    "precache-manifest.f116089103eb5f6456a8caf3055f4ef7.js": "/starnaud/precache-manifest.f116089103eb5f6456a8caf3055f4ef7.js",
+    "service-worker.js": "/starnaud/service-worker.js",
+    "static/css/main.6daaf882.chunk.css.map": "/starnaud/static/css/main.6daaf882.chunk.css.map"
+  }
+}
