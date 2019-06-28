@@ -1,0 +1,37 @@
+@import "variables";
+
+.parameter {
+  .value,
+  .units,
+  .trend {
+    margin-right: $spacer/4;
+  }
+
+  .value {
+    font-size: $h3-font-size;
+  }
+  .units {
+    font-size: $h5-font-size;
+  }
+  .trend {
+    font-size: $h6-font-size;
+  }
+
+  .trend {
+    color: $gray-600;
+  }
+
+  &.min,
+  &.max,
+  &.small {
+    .value {
+      font-size: $h5-font-size;
+    }
+    .units {
+      font-size: $h6-font-size;
+    }
+    .trend {
+      font-size: $h6-font-size;
+    }
+  }
+}

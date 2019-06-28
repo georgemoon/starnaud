@@ -1,0 +1,10 @@
+@import "variables";
+
+.AirTemp {
+  .min {
+    color: $cold;
+  }
+  .max {
+    color: $hot;
+  }
+}
