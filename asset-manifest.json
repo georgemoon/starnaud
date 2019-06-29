@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/starnaud/static/css/main.6daaf882.chunk.css",
-    "main.js": "/starnaud/static/js/main.7d67ce6e.chunk.js",
-    "main.js.map": "/starnaud/static/js/main.7d67ce6e.chunk.js.map",
+    "main.js": "/starnaud/static/js/main.09aa5b2d.chunk.js",
+    "main.js.map": "/starnaud/static/js/main.09aa5b2d.chunk.js.map",
     "runtime~main.js": "/starnaud/static/js/runtime~main.9bd44f9e.js",
     "runtime~main.js.map": "/starnaud/static/js/runtime~main.9bd44f9e.js.map",
     "static/js/2.5415d3b6.chunk.js": "/starnaud/static/js/2.5415d3b6.chunk.js",
     "static/js/2.5415d3b6.chunk.js.map": "/starnaud/static/js/2.5415d3b6.chunk.js.map",
     "index.html": "/starnaud/index.html",
-    "precache-manifest.787aa64c65b72ac15d7175a8ed665cdb.js": "/starnaud/precache-manifest.787aa64c65b72ac15d7175a8ed665cdb.js",
+    "precache-manifest.3adc6e94ef901dbc25486a5e5084e52f.js": "/starnaud/precache-manifest.3adc6e94ef901dbc25486a5e5084e52f.js",
     "service-worker.js": "/starnaud/service-worker.js",
     "static/css/main.6daaf882.chunk.css.map": "/starnaud/static/css/main.6daaf882.chunk.css.map"
   }

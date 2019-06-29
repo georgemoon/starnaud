@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "496445c1da20cf4d29c55484af3e2c60",
+    "revision": "1d242eab0752eb37a91e52f61b83e61d",
     "url": "/starnaud/index.html"
   },
   {
-    "revision": "b05044d0d556eea38999",
+    "revision": "6951360a9b72eb6ab788",
     "url": "/starnaud/static/css/main.6daaf882.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/starnaud/static/js/2.5415d3b6.chunk.js"
   },
   {
-    "revision": "b05044d0d556eea38999",
-    "url": "/starnaud/static/js/main.7d67ce6e.chunk.js"
+    "revision": "6951360a9b72eb6ab788",
+    "url": "/starnaud/static/js/main.09aa5b2d.chunk.js"
   },
   {
     "revision": "f226d6daa6f352dab520",
