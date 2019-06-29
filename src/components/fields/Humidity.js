@@ -7,13 +7,13 @@ const Humidity = ({ data }) => {
 
   return (
     <div className="Humidity row align-items-center">
-      <div className="col-3">
+      <div className="col-4">
         <RenderParameter parameter={parameter} type="min" />
       </div>
-      <div className="col-6">
+      <div className="col-4">
         <RenderParameter parameter={parameter} />
       </div>
-      <div className="col-3">
+      <div className="col-4">
         <RenderParameter parameter={parameter} type="max" />
       </div>
     </div>
