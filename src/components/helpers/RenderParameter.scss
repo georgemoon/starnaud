@@ -1,37 +1,47 @@
 @import "variables";
 
 .parameter {
-  .value,
-  .units,
-  .trend {
-    margin-right: $spacer/4;
-  }
+  line-height: 1;
+  margin: $spacer/2 0;
 
-  .value {
-    font-size: $h3-font-size;
-  }
-  .units {
-    font-size: $h5-font-size;
-  }
-  .trend {
-    font-size: $h6-font-size;
-  }
+  output {
+    display: block;
 
-  .trend {
-    color: $gray-600;
-  }
+    .value,
+    .units,
+    .trend {
+      margin-right: $spacer/4;
+    }
 
-  &.min,
-  &.max,
-  &.small {
     .value {
-      font-size: $h5-font-size;
+      font-size: $h3-font-size;
     }
     .units {
-      font-size: $h6-font-size;
+      font-size: $h5-font-size;
     }
     .trend {
       font-size: $h6-font-size;
+      color: $gray-600;
     }
+
+    &.min,
+    &.max,
+    &.small {
+      .value {
+        font-size: $h5-font-size;
+      }
+      .units {
+        font-size: $h6-font-size;
+      }
+      .trend {
+        font-size: $h6-font-size;
+      }
+    }
+  }
+
+  label {
+    font-size: $h6-font-size * 0.8;
+    color: $gray-600;
+    margin: 0;
   }
 }
