@@ -61,6 +61,12 @@ class WeatherDisplay extends Component {
                     Nelson Lakes National Park
                   </a>
                 </dd>
+                <dt>NIWA</dt>
+                <dd>
+                  <a href="https://weather.niwa.co.nz/parks/Nelson%20Lakes%20National%20Park">
+                    Nelson Lakes National Park
+                  </a>
+                </dd>
                 <dt>Weather Data</dt>
                 <dd className="m-0">
                   <a href="http://nrfa.harvest.com/w.cgi?hsn=11720">
