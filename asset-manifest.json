@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/starnaud/static/css/main.ae881045.chunk.css",
-    "main.js": "/starnaud/static/js/main.52b0f030.chunk.js",
-    "main.js.map": "/starnaud/static/js/main.52b0f030.chunk.js.map",
+    "main.css": "/starnaud/static/css/main.90f44f1c.chunk.css",
+    "main.js": "/starnaud/static/js/main.49bf6b71.chunk.js",
+    "main.js.map": "/starnaud/static/js/main.49bf6b71.chunk.js.map",
     "runtime~main.js": "/starnaud/static/js/runtime~main.9bd44f9e.js",
     "runtime~main.js.map": "/starnaud/static/js/runtime~main.9bd44f9e.js.map",
-    "static/js/2.829b9da9.chunk.js": "/starnaud/static/js/2.829b9da9.chunk.js",
-    "static/js/2.829b9da9.chunk.js.map": "/starnaud/static/js/2.829b9da9.chunk.js.map",
+    "static/js/2.f39f9a10.chunk.js": "/starnaud/static/js/2.f39f9a10.chunk.js",
+    "static/js/2.f39f9a10.chunk.js.map": "/starnaud/static/js/2.f39f9a10.chunk.js.map",
     "index.html": "/starnaud/index.html",
-    "precache-manifest.38955bbc92dd0619a92f85f5a45d858e.js": "/starnaud/precache-manifest.38955bbc92dd0619a92f85f5a45d858e.js",
+    "precache-manifest.af2755e9922298225ec7d5bd10fcac3b.js": "/starnaud/precache-manifest.af2755e9922298225ec7d5bd10fcac3b.js",
     "service-worker.js": "/starnaud/service-worker.js",
-    "static/css/main.ae881045.chunk.css.map": "/starnaud/static/css/main.ae881045.chunk.css.map"
+    "static/css/main.90f44f1c.chunk.css.map": "/starnaud/static/css/main.90f44f1c.chunk.css.map"
   }
 }
