@@ -10,7 +10,7 @@ import Wind from "./fields/Wind";
 
 import "./WeatherDisplay.css";
 
-const WEATHER_URL = `https://live.harvest.com/?hsn=11720&grp=Main&cmd=json`;
+const WEATHER_URL = `https://live.harvest.com/?hsn=11744&grp=Main&cmd=json`;
 
 class WeatherDisplay extends Component {
   render() {
