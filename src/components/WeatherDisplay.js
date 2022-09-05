@@ -69,7 +69,7 @@ class WeatherDisplay extends Component {
                 </dd>
                 <dt>Weather Data</dt>
                 <dd className="m-0">
-                  <a href="http://nrfa.harvest.com/w.cgi?hsn=11720">
+                  <a href="http://nrfa.harvest.com/w.cgi?hsn=11744">
                     Fire and Emergency New Zealand
                   </a>
                 </dd>
