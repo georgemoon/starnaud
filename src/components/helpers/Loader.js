@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Loader.css";
 
-const Loader = props => {
+const Loader = (props) => {
   return <div className="Loader" />;
 };
 

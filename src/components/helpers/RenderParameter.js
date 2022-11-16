@@ -49,16 +49,16 @@ RenderParameter.propTypes = {
     min: PropTypes.number.isRequired,
     trend: PropTypes.number.isRequired,
     units: PropTypes.string.isRequired,
-    value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired
+    value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
   }),
   type: PropTypes.string.isRequired,
   small: PropTypes.bool.isRequired,
-  label: PropTypes.string
+  label: PropTypes.string,
 };
 
 RenderParameter.defaultProps = {
   type: "current",
-  small: false
+  small: false,
 };
 
 export default RenderParameter;

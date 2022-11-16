@@ -3,7 +3,7 @@ import React from "react";
 import WeatherDisplay from "./components/WeatherDisplay";
 import { TasmanWebcamDisplay, NZTAWebcamDisplay } from "./components/Webcams";
 
-const App = props => {
+const App = (props) => {
   return (
     <div className="App">
       <main>

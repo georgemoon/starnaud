@@ -82,6 +82,6 @@ class WeatherDisplay extends Component {
   }
 }
 
-export default connect(props => ({
-  weatherFetch: WEATHER_URL
+export default connect((props) => ({
+  weatherFetch: WEATHER_URL,
 }))(WeatherDisplay);

@@ -38,7 +38,7 @@ class Wind extends Component {
       { name: "WNW", lower: 281.25, upper: 303.75 },
       { name: "NW", lower: 303.75, upper: 326.25 },
       { name: "NNW", lower: 326.25, upper: 348.75 },
-      { name: "N", lower: 348.75, upper: 360.0 }
+      { name: "N", lower: 348.75, upper: 360.0 },
     ];
 
     var compass = "";
