@@ -2,7 +2,7 @@
   "name": "starnaud",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://georgemoon.io/starnaud",
+  "homepage": "https://georgemoon.net/starnaud",
   "dependencies": {
     "bootstrap": "^4.6.2",
     "moment": "^2.29.4",
