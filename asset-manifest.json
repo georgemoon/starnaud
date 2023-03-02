@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/starnaud/static/css/main.90b536b6.css",
-    "main.js": "/starnaud/static/js/main.26b2ae7a.js",
+    "main.js": "/starnaud/static/js/main.d78b8a98.js",
     "index.html": "/starnaud/index.html",
     "main.90b536b6.css.map": "/starnaud/static/css/main.90b536b6.css.map",
-    "main.26b2ae7a.js.map": "/starnaud/static/js/main.26b2ae7a.js.map"
+    "main.d78b8a98.js.map": "/starnaud/static/js/main.d78b8a98.js.map"
   },
   "entrypoints": [
     "static/css/main.90b536b6.css",
-    "static/js/main.26b2ae7a.js"
+    "static/js/main.d78b8a98.js"
   ]
 }
