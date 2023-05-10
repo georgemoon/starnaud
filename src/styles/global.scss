@@ -1,0 +1,133 @@
+@import "bootstrap/scss/mixins/banner";
+@include bsBanner("");
+
+// Variable overrides
+$body-bg: #f6f6f6;
+$font-size-base: 0.9rem;
+
+// scss-docs-start import-stack
+// Configuration
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+// Layout & components
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/placeholders";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+// scss-docs-end import-stack
+
+// Custom
+
+$cold: #025fd1;
+$hot: #d10202;
+
+.WeatherDisplay {
+  h2 {
+    font-size: $h4-font-size;
+  }
+
+  h3 {
+    font-size: $h6-font-size;
+  }
+}
+
+.AirTemp {
+  .min {
+    color: $cold;
+  }
+
+  .max {
+    color: $hot;
+  }
+}
+
+.WindDir {
+  font-size: $h5-font-size;
+}
+
+.parameter {
+  line-height: 1;
+  margin: $spacer/2 0;
+
+  output {
+    display: block;
+
+    .value,
+    .units,
+    .trend {
+      margin-right: $spacer/4;
+    }
+
+    .value {
+      font-size: $h3-font-size;
+    }
+
+    .units {
+      font-size: $h5-font-size;
+    }
+
+    .trend {
+      font-size: $h6-font-size;
+      color: $gray-600;
+    }
+
+    &.min,
+    &.max,
+    &.small {
+      .value {
+        font-size: $h5-font-size;
+      }
+
+      .units {
+        font-size: $h6-font-size;
+      }
+
+      .trend {
+        font-size: $h6-font-size;
+      }
+    }
+  }
+
+  label {
+    font-size: $h6-font-size * 0.8;
+    color: $gray-600;
+    margin: 0;
+  }
+}

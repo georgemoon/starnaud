@@ -4,7 +4,7 @@ export const TasmanWebcamDisplay = () => {
   return (
     <div className="TasmanWebcamDisplay">
       <div className="card">
-        <h2 className="sr-only">Webcam (Waterfront)</h2>
+        <h2 className="visually-hidden">Webcam (Waterfront)</h2>
         <img
           className="card-img-top"
           src="https://snapithd.com/static/lakerotoiti.jpg?width=770"
@@ -26,7 +26,7 @@ export const NZTAWebcamDisplay = () => {
   return (
     <div className="NZTAWebcamDisplay">
       <div className="card">
-        <h2 className="sr-only">Webcam (NZTA)</h2>
+        <h2 className="visually-hidden">Webcam (NZTA)</h2>
         <img
           className="card-img-top"
           src="https://www.trafficnz.info/camera/647.jpg"
@@ -37,12 +37,11 @@ export const NZTAWebcamDisplay = () => {
   );
 };
 
-
 export const MSCWebcamDisplay = () => {
   return (
     <div className="MSCWebcamDisplay">
       <div className="card">
-        <h2 className="sr-only">Webcam (Angelus)</h2>
+        <h2 className="visually-hidden">Webcam (Angelus)</h2>
         <img
           className="card-img-top"
           src="https://setup.photosentinel.com.au/api/installations/19493/4rYkWiqpth/latestPhotoWithMarks.jpg"
@@ -59,4 +58,3 @@ export const MSCWebcamDisplay = () => {
     </div>
   );
 };
-

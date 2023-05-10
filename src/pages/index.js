@@ -1,14 +1,21 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 import WeatherDisplay from "@/components/WeatherDisplay";
-import { TasmanWebcamDisplay, NZTAWebcamDisplay, MSCWebcamDisplay } from "@/components/Webcams";
+import {
+  TasmanWebcamDisplay,
+  NZTAWebcamDisplay,
+  MSCWebcamDisplay,
+} from "@/components/Webcams";
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>St. Arnaud</title>
-        <meta name="description" content="At a glance weather and webcam info for St. Arnaud, New Zealand" />
+        <meta
+          name="description"
+          content="At a glance weather and webcam info for St. Arnaud, New Zealand"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -21,12 +28,12 @@ export default function Home() {
                 <WeatherDisplay />
               </section>
               <section className="mt-4">
-                <TasmanWebcamDisplay />
+                <NZTAWebcamDisplay />
               </section>
             </div>
             <div className="col-md-5 col-lg-6">
               <section className="mt-4">
-                <NZTAWebcamDisplay />
+                <TasmanWebcamDisplay />
               </section>
               <section className="mt-4">
                 <MSCWebcamDisplay />
@@ -36,5 +43,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }

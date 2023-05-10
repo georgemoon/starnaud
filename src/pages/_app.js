@@ -1,7 +1,7 @@
 import axios from "axios";
 import { SWRConfig } from "swr";
 
-import "bootstrap/dist/css/bootstrap.min.css";
+import "@/styles/global.scss";
 
 const SWR_CONFIG = {
   dedupingInterval: 24 * 60 * 60 * 1000,
@@ -10,7 +10,9 @@ const SWR_CONFIG = {
 };
 
 export default function App({ Component, pageProps }) {
-  return <SWRConfig value={SWR_CONFIG}>
-    <Component {...pageProps} />
-  </SWRConfig>;
+  return (
+    <SWRConfig value={SWR_CONFIG}>
+      <Component {...pageProps} />
+    </SWRConfig>
+  );
 }
