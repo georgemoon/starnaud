@@ -16,8 +16,6 @@ export default function Home() {
           name="description"
           content="At a glance weather and webcam info for St. Arnaud, New Zealand"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <h1 className="visually-hidden">St. Arnaud</h1>
