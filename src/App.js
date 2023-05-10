@@ -1,7 +1,7 @@
 import React from "react";
 
 import WeatherDisplay from "./components/WeatherDisplay";
-import { TasmanWebcamDisplay, NZTAWebcamDisplay } from "./components/Webcams";
+import { TasmanWebcamDisplay, NZTAWebcamDisplay, MSCWebcamDisplay } from "./components/Webcams";
 
 const App = (props) => {
   return (
@@ -22,6 +22,9 @@ const App = (props) => {
               <section className="mt-4">
                 <NZTAWebcamDisplay />
               </section>
+	      <section className="mt-4">
+	        <MSCWebcamDisplay />
+	      </section>
             </div>
           </div>
         </div>
