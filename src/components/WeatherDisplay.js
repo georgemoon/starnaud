@@ -12,7 +12,12 @@ const WEATHER_URL = `https://live.harvest.com/?hsn=11744&grp=Main&cmd=json`;
 const WeatherDisplay = () => {
   const { data, error, isValidating } = useSWR(WEATHER_URL);
 
-  if (isValidating) return <span>Loading</span>;
+  if (isValidating)
+    return (
+      <div className="spinner-border" role="status">
+        <span className="visually-hidden">Loading</span>
+      </div>
+    );
   else if (error) return <span>Error</span>;
   else if (data) {
     return (
