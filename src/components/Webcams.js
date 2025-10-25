@@ -7,12 +7,12 @@ export const TasmanWebcamDisplay = () => {
         <h2 className="visually-hidden">Webcam (Waterfront)</h2>
         <img
           className="card-img-top"
-          src="https://snapithd.com/static/lakerotoiti.jpg?width=770"
+          src="https://live.immerse.cam/static/lakerotoiti.jpg?width=1024&height=768"
           alt="Current view from the Lake Rotoiti webcam"
         />
         <div className="card-body">
           <p className="m-0">
-            <a href="https://encounter.snapithd.com/html5player/iframe_javascript.php?t=t&amp;w=t1bd338151dw41">
+            <a href="https://live.immerse.cam/static/t1bd338151dw590.jpg?width=640&height=480&hide=0">
               Full screen
             </a>
           </p>
